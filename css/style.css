@@ -1,0 +1,45 @@
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 60px;
+  }
+  img {
+    width: 100px;
+    height: 100px;
+    
+  }
+  .caption {
+    display: block;
+    margin-top: 20px;
+  }
+  .progress .outer {
+    width: 500px;
+    height: 14px;
+    border-radius: 7px;
+    background: rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.progress .inner {
+    width: 0;
+    height: 100%;
+    background: #f04c4c;
+    animation: loading 4s linear infinite;
+}
+@keyframes loading {
+    100% {
+        width: 100%;
+    }
+}
+
+.message {
+  align-items: center;
+  margin: 0 auto;
+  width: 500px;
+}
